@@ -1,0 +1,15 @@
+/* Resolve base theme from vanilla-jsoneditor via tsup loadPaths */
+@use "../node_modules/vanilla-jsoneditor/themes/defaults";
+
+.jse-react-wrapper {
+  /* Ensure the svelte-generated content matches the wrapper's 100% height */
+  & > .jse-main {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  /* Restore right border on grouped buttons */
+  .jse-menu .jse-button.jse-group-button:not(.jse-last) {
+    border-right: 1px solid var(--jse-menu-color, var(--jse-text-color-inverse, #fff)) !important;
+  }
+}

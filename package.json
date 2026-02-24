@@ -1,0 +1,56 @@
+{
+  "name": "modern-react-json-editor",
+  "description": "A high-performance React bridge for vanilla-jsoneditor. Compatible with React 16.8+. Features integrated dark mode support, JSON Schema validation, and responsive layout inheritance.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./index.css": "./dist/index.css",
+    "./dark.css": "./dist/dark.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "esbuild-sass-plugin": "^3.6.0",
+    "rimraf": "^5.0.0",
+    "sass": "^1.97.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "vanilla-jsoneditor": "^3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipecarrillo100/modern-react-json-editor"
+  },
+  "keywords": [
+    "react",
+    "json-editor",
+    "vanilla-jsoneditor",
+    "svelte-jsoneditor",
+    "json",
+    "editor",
+    "react-component",
+    "json-tree"
+  ]
+}
