@@ -210,11 +210,12 @@ This library is powered by the exceptional `vanilla-jsoneditor` engine by **Jos 
 
 MIT
 
-## Donations & Sponsor
-Creating these libraries is my hobie. If you consider my work useful to you, please consider sponsoring or buying me a coffee. 
+## Donations & Sponsoring
+Creating and maintaining open-source libraries is a passion of mine. If you find this editor useful and it saves you time, please consider supporting its development. Your contributions help keep the project active and motivated!
 
-Your contribution keeps me motivated to created and maintain these useful libraries.
+Every bit of support—whether it's sponsoring on GitHub, a coffee, a star, or a shout-out, is deeply appreciated. Thank you for being part of the community!
 
 [<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" name="buy-me-a-coffee" alt="Buy Me A Coffee" width="180">](https://buymeacoffee.com/felipecarrillo100)
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/felipecarrillo100)
+
