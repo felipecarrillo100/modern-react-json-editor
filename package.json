@@ -1,7 +1,7 @@
 {
   "name": "modern-react-json-editor",
   "description": "A high-performance React bridge for vanilla-jsoneditor. Compatible with React 16.8+. Features integrated dark mode support, JSON Schema validation, and responsive layout inheritance.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
