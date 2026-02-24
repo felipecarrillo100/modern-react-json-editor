@@ -16,7 +16,7 @@ While many integrations leave you fighting with CSS and height collapses, this l
 ## 📦 Installation
 
 ```bash
-npm install react-json-editor-wrapper
+npm install modern-react-json-editor
 ```
 
 ---
@@ -29,7 +29,7 @@ The `ReactJsonEditor` is designed for **fluid layouts**. Simply ensure the paren
 
 ```tsx
 import { useState } from 'react';
-import { ReactJsonEditor, type Content } from 'react-json-editor-wrapper';
+import { ReactJsonEditor, type Content } from 'modern-react-json-editor';
 
 function App() {
   const [content, setContent] = useState<Content>({
@@ -58,7 +58,7 @@ function App() {
 Enforce strict data rules with real-time feedback. Provide a standard **JSON Schema** to get visual cues, red underlinings, and gutter icons for violations.
 
 ```tsx
-import { ReactJsonEditor, createAjvValidator } from 'react-json-editor-wrapper';
+import { ReactJsonEditor, createAjvValidator } from 'modern-react-json-editor';
 
 const schema = {
   type: "object",
@@ -81,7 +81,7 @@ Standard JavaScript JSON.parse silently rounds large numbers (e.g., a 64-bit Sno
 By passing the parser prop, you can swap the internal JavaScript JSON parser for a high-precision parser like `lossless-json` to ensure your data remains 100% accurate.
 
 ```tsx
-import { ReactJsonEditor } from 'react-json-editor-wrapper';
+import { ReactJsonEditor } from 'modern-react-json-editor';
 import { parse, stringify } from 'lossless-json';
 
 const LosslessParser = { parse, stringify };
@@ -171,7 +171,7 @@ By using `editorRef.current`, you can call the following methods directly:
 
 ```tsx
 import { useRef } from 'react';
-import { ReactJsonEditor, type JSONInstance } from 'react-json-editor-wrapper';
+import { ReactJsonEditor, type JSONInstance } from 'modern-react-json-editor';
 
 function ActionCenter() {
   const editorRef = useRef<JSONInstance>(null);
