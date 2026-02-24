@@ -11,8 +11,13 @@ While many integrations leave you fighting with CSS and height collapses, this l
 * **Layout Autonomy**: Container-aware by design. It inherits parent dimensions automatically, fitting perfectly into resizable sidebars, grid layouts, or modals.
 * **Lossless Data Handling**: Support for custom JSON parsers (like `lossless-json`) to handle BigInts and high-precision decimals without rounding errors.
 * **React 16.8 and higher**: A modern bridge that respects the React lifecycle, ensuring the editor instance is stable and ready from the moment your component mounts.
-
 ---
+
+## Live sample
+
+Check out this **React JSON Editor sandbox** for reference and samples:
+[https://codesandbox.io/p/sandbox/modern-react-json-editor-2rgwk2](https://codesandbox.io/p/sandbox/modern-react-json-editor-2rgwk2)
+
 
 ## 📦 Installation
 
@@ -30,7 +35,11 @@ The `ReactJsonEditor` is designed for **fluid layouts**. Simply ensure the paren
 
 ```tsx
 import { useState } from 'react';
+// Import the library
 import { ReactJsonEditor, type Content } from 'modern-react-json-editor';
+// Import styles (Import dark.css only if you use theme="dark")
+import "modern-react-json-editor/index.css"; 
+import "modern-react-json-editor/dark.css";
 
 function App() {
   const [content, setContent] = useState<Content>({
