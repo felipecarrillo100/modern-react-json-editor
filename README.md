@@ -1,4 +1,5 @@
 # modern-react-json-editor
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/felipecarrillo100)
 
 A high-performance, professional React bridge for **Jos de Jong's** [vanilla-jsoneditor](https://github.com/josdejong/svelte-jsoneditor). Optimized for modern web applications that require fluid layouts, seamless theme switching, and zero-config integration.
 
@@ -209,3 +210,11 @@ This library is powered by the exceptional `vanilla-jsoneditor` engine by **Jos 
 
 MIT
 
+## Donations & Sponsor
+Creating these libraries is my hobie. If you consider my work useful to you, please consider sponsoring or buying me a coffee. 
+
+Your contribution keeps me motivated to created and maintain these useful libraries.
+
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" name="buy-me-a-coffee" alt="Buy Me A Coffee" width="180">](https://buymeacoffee.com/felipecarrillo100)
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-❤️-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/felipecarrillo100)
